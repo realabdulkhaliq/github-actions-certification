@@ -1,0 +1,12 @@
+name: "Schedule Event"
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'
+
+jobs:
+  current_time:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Display Current Time"
+      run: echo "The current time is $(date)"
