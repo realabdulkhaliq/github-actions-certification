@@ -2,7 +2,7 @@ name: "Schedule Event"
 
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/2 * * * *'
 
 jobs:
   current_time:
